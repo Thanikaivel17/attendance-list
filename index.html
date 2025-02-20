@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        .tables{
+            border-style: double !important;
+            background-image: url(new.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: black;
+        }
+
+        th{
+            color: black;
+            font-weight: 700;
+            font-size: 20px;
+            text-decoration: underline;
+            text-transform: uppercase;
+            background-color: orangered; 
+        }
+
+        td{
+            color: white;
+            font-weight: 600;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .present{
+            background-color: green;
+        }
+
+        .absent{
+            background-color: red;
+        }
+
+        .container2{
+            border: 8px;
+            border-style:double;
+            border-color: black;
+            border-radius: 10px;
+            width: 500px;
+            padding: 15px;
+            margin: 15px;
+            background-image: url(conts_2.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .container2{
+            position: relative;
+        }
+
+        .container2::before{
+            content: '';
+            position: absolute;
+            background-image: url(output-onlinegiftools.gif);
+            top: -76px;
+            right: -156px;
+            width: 100%;
+            height: 100%;
+        }
+
+        .container3{
+            position: relative;
+        }
+
+        .container3::before{
+            content: '';
+            position: absolute;
+            background-image: url(23.gif);
+            top: -143px;
+            right: -156px;
+            width: 100%;
+            height: 256%;
+        }
+        li{
+            text-decoration: underline;
+            text-transform: uppercase;
+            list-style-type: decimal;
+        }
+
+        .container3{
+            border: 3px;
+            border-style: dotted;
+            border-color: black;
+            border-radius: 10px;
+            width: 500px;
+            padding: 15px;
+            margin: 15px;
+            background-image: url(cont_3.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .button{
+            background-color: lime;
+            border: 2px double;
+            padding: 15px;
+            margin: 15px;
+            color: black;
+        }
+
+        .button:hover{
+            background-color: gold;
+            color: white;
+            box-shadow: 10px 10px;
+            border: 5px double black;
+        }
+h1{
+    text-align: center;
+}
+.container{
+    align-items: center;
+    display: grid;
+}
+    </style>
+    <title>Sample HTML CSS</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Student Attendance List</h1>
+        <table border="5px"cellspacing="0" cellpadding="40" class="tables">
+           <tr>
+            <th>S.No</th>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Roll No</th>
+            <th>Present</th>
+            <th>Absent</th>
+           </tr>
+
+           <tr>
+            <td>01</td>
+            <td>Arumugam</td>
+            <td>12</td>
+            <td>007</td>
+            <td class="present"> Yes Present</td>
+            <td class="absent">No Absent</td>
+           </tr>
+
+           <tr>
+            <td>02</td>
+            <td>Karpagam</td>
+            <td>10</td>
+            <td>001</td>
+            <td class="present"> Yes Present</td>
+            <td class="absent">No Absent</td>
+           </tr>
+
+           <tr>
+            <td>03</td>
+            <td>Thanikaivel</td>
+            <td>08</td>
+            <td>149</td>
+            <td class="present"> No Present</td>
+            <td class="absent">Yes Absent</td>
+           </tr>
+
+           <tr>
+            <td>04</td>
+            <td>Nagem</td>
+            <td>11</td>
+            <td>225</td>
+            <td class="present"> No Present</td>
+            <td class="absent">Yes Absent</td>
+           </tr>
+            
+           <tr>
+            <td>05</td>
+            <td>Vijay</td>
+            <td>10</td>
+            <td>100</td>
+            <td class="present"> Yes Present</td>
+            <td class="absent">No Absent</td>
+           </tr>
+        </table>
+    </div>
+<br><br>
+ <div class="container2">
+    <h2>Number of Present</h2>
+    <ul>
+        <li>Arumugam</li>
+        <li>Karpagam</li>
+        <li>Vijay</li>
+    </ul>
+    
+   <h4>Total Number of Student Present is 3</h4>
+ </div> 
+ 
+ <div class="container3">
+    <h3>Number of Absent</h3>
+    <ul>
+        <li>Thanikaivel</li>
+        <li>Nagem</li>
+    </ul>
+    <h4>Total Number of Student Absent is 2</h4>
+ </div>
+ <br>
+ <a  class="button" href="./index2.html">Sample List Page</a>
+</body>
+</html>

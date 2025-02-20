@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background code</title>
+    <style>
+.background{
+    background-color: aquamarine;
+    background-image: url(1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    color: black;
+    border:5px solid black;
+}
+
+.Box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 15px;
+    background-color: cyan;
+}
+.Border{
+    border-width: 5px;
+    border-style: dotted;
+    border-color: darkmagenta;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.border2{
+    border-width: 5px;
+    border-style: solid;
+    border-color: brown;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    padding: 20px;
+}
+
+.border3{
+    border-width: 5px;
+    border-style: dashed;
+    border-color: chartreuse;
+   border-top-right-radius: 100px;
+   border-bottom-left-radius: 100px;
+    padding: 20px;
+}
+
+.border4{
+    border-width: 5px;
+    border-style: double;
+    border-color: crimson;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    padding: 20px;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.line{
+    text-decoration: line-through;
+}
+.line2{
+    text-decoration: overline;
+}
+.noline{
+    text-decoration: none;
+}
+.square-list{
+    list-style-type: square;
+    list-style-position: inside;
+}
+.roman-letter{
+    list-style-type: upper-roman;
+    list-style-position: outside;
+}
+.circle{
+    list-style-type: circle;
+    list-style-position: outside;
+}
+.news{
+    list-style-type: lower-greek;
+    list-style-position: outside;
+}
+.old{
+    list-style-type: georgian;
+    list-style-position: outside;
+}
+.Hover{
+    text-decoration: none;
+
+}
+.Hover:hover{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    
+}
+
+.buttons{
+    text-decoration: none;
+    background-color: darkorchid;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 5px;
+
+
+}
+.buttons:active{
+    background-color: darkorange;
+    color: black;
+    border-radius: 10px;
+}
+.god{
+    text-decoration: none;
+}
+
+.god:focus{
+    background-color: darksalmon;
+     outline: 2px solid darkgreen;
+     padding: 5px;
+}
+.relative{
+    position: relative;
+    top: 10px;
+    left: 30px;
+    background-color: tomato;
+}
+
+.absolute{
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    background-color: rgb(142, 41, 41);
+    color: white;
+    padding: 3px;
+}
+
+.fixed{
+    position: fixed;
+    right: 50px;
+    top: 20px;
+    background-color: darkkhaki;
+}
+
+.sticky{
+    position: sticky;
+    margin-top: 100px;
+    top: 0;
+    background-color: lightskyblue;
+}
+    </style>
+</head>
+<body>
+    <!-- 23/1/2025 -->
+    <p class="background">Hi Hello How are you</p>
+<br><br>
+    <p class="Box">Box Class section</p>
+    <br><br>
+    <p class="Border">Border Section</p>
+    <br><br>
+    <p class="border2">Border 2</p>
+    <br><br>
+    <p class="border3">Border 2</p>
+    <br><br>
+    <p class="border4">Border 2</p>
+
+
+<!-- 24/1/2025 -->
+
+<p class="underline">Good Evening Sir</p>
+<br><br>
+<p class="line">Good Evening Sir</p>
+<br><br>
+<p class="line2">Good Evening Sir</p>
+<br><br>
+<p class="noline">Good Evening Sir</p>
+<br><br>
+
+<ul class="square-list">
+    <li>Hi Hello</li>
+    <li>How are You?</li>
+</ul>
+<br><br>
+<ol class="roman-letter">
+    <li>Roman Letter 1</li>
+    <li>Roaman Letter 2</li>
+</ol>
+<br><br>
+<ul class="circle">
+    <li>Hi</li>
+    <li>Iam a Developer</li>
+</ul>
+<br><br>
+<ol class="news">
+    <li>Good</li>
+    <li>Bad</li>
+</ol>
+<br><br>
+<ul class="old">
+    <li>London</li>
+    <li>Switerland</li>
+</ul>
+
+<br><br>
+<a href="#" class="Hover">Hover</a>
+<br><br>
+
+<button class="buttons">Active</button>
+<br><br>
+
+<a href="#" class="god">Focus</a>
+<br><br>
+
+<div class="relative">Relative</div>
+<br><br>
+<div class="absolute">Absolute</div>
+<br><br>
+<div class="fixed">fixed</div>
+<br><br>
+<div class="sticky">sticky</div>
+<br><br>
+<div style="height:1000px;"></div>
+</body>
+</html>
